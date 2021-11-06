@@ -24,6 +24,7 @@ const ContactState = ({children}) => {
                 "Content-type": "Application/json",
             },
         });
+        getContacts()
         return response
      }
 
